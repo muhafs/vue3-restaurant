@@ -1,0 +1,23 @@
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.btn-success {
+	background-color: #3eb883 !important;
+	border-color: #3eb883 !important;
+}
+
+.btn-success:hover {
+	background-color: #32946a !important;
+	border-color: #32946a !important;
+}
+
+.bg-custom-success {
+	background-color: #3eb883 !important;
+	border-color: #3eb883 !important;
+}
+
+.bg-custom-success:hover {
+	background-color: #32946a !important;
+	border-color: #32946a !important;
+}
