@@ -23,9 +23,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 /* import specific icons */
-import { faCartShopping, faCartArrowDown, faAnglesRight } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping, faCartArrowDown, faAnglesRight, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faTwitterSquare, faInstagramSquare, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 /* add icons to the library */
-library.add(faCartShopping, faCartArrowDown, faAnglesRight, faTwitterSquare, faInstagramSquare, faWhatsappSquare);
+library.add(faCartShopping, faCartArrowDown, faAnglesRight, faSearch, faTwitterSquare, faInstagramSquare, faWhatsappSquare);
 
 createApp(App).use(router).use(BootstrapVue3).use(Toast, options).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

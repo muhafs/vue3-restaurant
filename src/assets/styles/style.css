@@ -7,6 +7,16 @@ body {
 	border-color: #3eb883 !important;
 }
 
+.btn-outline-success {
+	border-color: #3eb883 !important;
+	color: #3eb883 !important;
+}
+
+.btn-outline-success:hover {
+	background-color: #3eb883 !important;
+	color: #fff !important;
+}
+
 .btn-success:hover {
 	background-color: #32946a !important;
 	border-color: #32946a !important;

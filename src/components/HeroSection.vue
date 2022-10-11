@@ -12,7 +12,7 @@
 			</h2>
 			<p>Ayo segera pilih dan pesan maknan favorit Anda</p>
 
-			<router-link to="/" class="btn btn-success btn-lg">
+			<router-link to="/foods" class="btn btn-success btn-lg">
 				<font-awesome-icon icon="fa-solid fa-cart-arrow-down" size="xs" />
 				Pesan
 			</router-link>
