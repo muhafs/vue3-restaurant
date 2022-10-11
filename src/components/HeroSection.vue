@@ -1,5 +1,5 @@
 <template>
-	<div class="row align-items-center">
+	<div class="row align-items-center my-md-3">
 		<div class="col-md-6 order-md-2">
 			<img src="../assets/images/hero_illustration.png" alt="" style="width: 100%" />
 		</div>
