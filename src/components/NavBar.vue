@@ -19,15 +19,15 @@
 				</ul>
 
 				<ul class="navbar-nav ms-auto">
-					<li class="nav-item position-relative">
-						<button type="button" class="btn btn-sm btn-dark position-relative">
+					<li class="nav-item position-relative d-flex justify-content-end">
+						<router-link to="/cart" role="button" class="btn btn-sm btn-dark px-4 position-relative">
 							<font-awesome-icon icon="fa-solid fa-cart-shopping" size="xs" />
 							Cart
 							<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-custom-success">
-								0
+								{{ items.length }}
 								<span class="visually-hidden">Cart Items</span>
 							</span>
-						</button>
+						</router-link>
 					</li>
 				</ul>
 			</div>
@@ -36,7 +36,9 @@
 </template>
 
 <script>
-	export default {};
+	export default {
+		props: ['items'],
+	};
 </script>
 
 <style></style>
